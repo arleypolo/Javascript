@@ -1,5 +1,5 @@
 const validateAge = () => {
-    let fullName = APIKEY
+    let fullName = document.getElementById("name").value
     let Age = document.getElementById("age").value
 
     if (Age < 0) {
